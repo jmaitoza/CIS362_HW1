@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cis362-hw1"
+version = "0.1.0"
+description = ""
+authors = ["Joshua Maitoza <60358495+jmaitoza@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "cis362_hw1"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
