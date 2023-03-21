@@ -8,6 +8,8 @@ packages = [{include = "cis362_hw1"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+matplotlib = "^3.7.1"
+pandas = "^1.5.3"
 
 
 [build-system]
