@@ -10,6 +10,8 @@ packages = [{include = "cis362_hw1"}]
 python = "^3.10"
 matplotlib = "^3.7.1"
 pandas = "^1.5.3"
+altair = "^4.2.2"
+altair-viewer = "^0.4.0"
 
 
 [build-system]
