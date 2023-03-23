@@ -5,10 +5,10 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import altair as alt
-import altair_viewer
+# import altair as alt
+# import altair_viewer
 
-dataset = pd.read_csv("datasets/Facebook_LiveSellers_Thailand.csv")
+dataset = pd.read_csv("datasets/facebook_data.csv")
 dataset.head()
 xcol1 = pd.DataFrame(dataset, columns = ["num_loves"])
 xcol2 = pd.DataFrame(dataset, columns = ["num_likes"])
@@ -46,7 +46,10 @@ plt.show()
 plt.hist(xcol2, bins = 7)
 plt.title("Num Likes Histogram")
 plt.xlabel("Num Likes")
-plt.ylabel("Frequency")
+plt.ylabel("Frequency") # This is the number of posts
 # plt.xlim(-10, 400)
 # plt.ylim(0, 3000)
 plt.show()
+
+
+
