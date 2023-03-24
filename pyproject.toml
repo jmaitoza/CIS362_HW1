@@ -12,7 +12,6 @@ matplotlib = "^3.7.1"
 pandas = "^1.5.3"
 altair = "^4.2.2"
 altair-viewer = "^0.4.0"
-debugpy = "^1.6.6"
 jupyter = "^1.0.0"
 tornado = "^6.2"
 
